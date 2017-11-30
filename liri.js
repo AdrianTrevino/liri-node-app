@@ -80,7 +80,7 @@ function myTwitter() {
   if(!twitterUsername){
     twitterUsername = "lirinode145";
   }
-  paramaters = {screen_name: twitterUsername};
+   var paramaters = {screen_name: twitterUsername};
   client.get("statuses/user_timeline/", paramaters, function(error, data, response){
     if (!error) {
       for(var i = 0; i < data.length; i++) {
