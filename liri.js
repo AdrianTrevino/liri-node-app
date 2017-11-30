@@ -123,9 +123,7 @@ function thisSong(songName) {
           var spotifyResults =
           "Artist: " + songInfo[i].artists[0].name + "\r\n" +
           "Song: " + songInfo[i].name + "\r\n" +
-          "Album the song is from: " + songInfo[i].album.name + "\r\n" +
-          "Preview Url: " + songInfo[i].preview_url + "\r\n" +
-          "------------------------------ " + i + " ------------------------------" + "\r\n";
+          "Album: " + songInfo[i].album.name + "\r\n" +
           console.log(spotifyResults);
           log(spotifyResults);
         }
