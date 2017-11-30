@@ -88,8 +88,7 @@ function myTwitter() {
         var twitterResults =
         "@" + data[i].user.screen_name + ": " +
         data[i].text + "\r\n" +
-        data[i].created_at + "\r\n" +
-        "------------------------------ " + i + " ------------------------------" + "\r\n";
+        data[i].created_at + "\r\n"
         console.log(twitterResults);
         log(twitterResults);
       }
